@@ -144,6 +144,21 @@ img {
     clear: both;
 }
 
+
+.showmobile{
+    display: none
+  @include mobile {
+    display: block;
+  }
+}
+
+.showbig{
+    display: block
+  @include mobile {
+    display: none;
+  }
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
