@@ -1,6 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: Tesserae
+subtitle: Intertextuality in large quantities
+
 image: /images/home-bg.jpg
 ---
 
