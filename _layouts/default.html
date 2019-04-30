@@ -16,11 +16,9 @@
   </head>
 
   <body>
-<p style="height:600px"; background-image: url({{ page.image }}); background-position: right top;background-repeat: no-repeat; background-size: contain;" /> 
-&nbsp;
+        <header class="masthead clearfix">
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
@@ -32,11 +30,10 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
-        </header>
       </div>
     </div>
-</p>
-
+       </header>
+ 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
