@@ -48,13 +48,10 @@
 
 
 
-
-<!--
-
-        <header class="masthead clearfix showmobile" />
-    <div class="wrapper-masthead">
+    <div class="wrapper-masthead showmobile">
       <div class="container">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+         <header class="masthead clearfix" />
+         <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -65,10 +62,10 @@
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
+     </header>
       </div>
     </div>
-       </header>
---> 
+  
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
