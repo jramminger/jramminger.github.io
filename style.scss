@@ -32,7 +32,7 @@ body {
   width: 100%;
 }
 
-.temporary{
+.temporaryfromfollowing{
   font-family: $helveticaNeue;
 }
 
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 10px;
   padding: 0;
 
   @include mobile {
@@ -63,7 +63,10 @@ h2 {
 
 h3 {
   font-size: 20px;
-  font-style:italic;
+  font-style: italic;
+  a {
+    color: inherit;
+  }
 }
 
 h4 {
