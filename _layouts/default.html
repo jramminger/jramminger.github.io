@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
@@ -18,7 +18,8 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
+        <!--header class="masthead clearfix"-->
+<header class="intro-header" style="background-image: url('/images/home-bg.jpg')">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
