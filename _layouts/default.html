@@ -1,8 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
+<!--
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+-->
+    <title>{{ site.name }}</title>
     {% include meta.html %}
 
     <!--[if lt IE 9]>
@@ -16,6 +18,9 @@
   </head>
 
   <body>
+
+<!-- marvellous solution from Mas at https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size: -->
+<!-- depending on size either showbig or showmobile is shown -->
 
 <div class="showbig" style="background-image: url({{ page.image }}); position:relative;">
  <img src="{{ page.image }}" style="opacity: 0;" />
@@ -35,7 +40,10 @@
           </nav>
 -->
           <div class="site-info">
+<!--
             <h1 class="site-name" style="color:white; font-size:50pt;font-family: Times New Roman, Times, serif;"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+-->
+           <h1 class="site-name" style="color:white; font-size:48pt;font-family: Times New Roman, Times, serif;">{{ site.name }}</h1>
             <p class="site-description" style="color:white; font-size:30pt;font-family: Times New Roman, Times, serif;">{{ site.description }}</p>
           </div>
 
