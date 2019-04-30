@@ -2,9 +2,9 @@
 layout: post
 title: Tesserae
 subtitle: Intertextuality in large quantities
-
 image: /images/home-bg.jpg
 ---
+## Installation
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
