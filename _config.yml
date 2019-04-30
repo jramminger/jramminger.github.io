@@ -9,7 +9,7 @@ name: Johann Ramminger
 description: Lexicographer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: ../images/avatar.png
+avatar: /images/avatar.png
 
 #
 # Flags below are optional
