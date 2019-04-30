@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: /images/home-bg.jpg 
 ---
 
 Some information about you!
