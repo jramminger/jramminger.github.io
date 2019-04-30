@@ -1,8 +1,6 @@
 ---
 layout: page
 permalink: /about/
-title: EML-DPhil
-subtitle: Notes on Early Modern Latin and Digital Philology by Johann Ramminger
 image: /images/home-bg.jpg 
 ---
 
