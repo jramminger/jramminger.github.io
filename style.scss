@@ -146,14 +146,16 @@ img {
 
 
 .showmobile{
-    display: none
+    display: none;
+
   @include mobile {
     display: block;
   }
 }
 
 .showbig{
-    display: block
+    display: block;
+
   @include mobile {
     display: none;
   }
