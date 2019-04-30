@@ -16,6 +16,12 @@
   </head>
 
   <body>
+
+<div style="background-image: url({{ page.image }}); position:relative;">
+ <img src="{{ page.image }}" style="opacity: 0;" />
+<div style="position: absolute;top: 0;width: 100%;height: 100%;">my content goes here</div>
+</div>
+
         <header class="masthead clearfix" style="background-color: lightblue;background-image: url({{ page.image }});background-repeat: no-repeat;background-size: 100% 100%;" />
     <div class="wrapper-masthead">
       <div class="container">
