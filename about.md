@@ -4,7 +4,7 @@ permalink: /about/
 image: /images/home-bg.jpg 
 ---
 
-I am a lexicographer at the Thesaurus Linguae Latinae in Munich, Germany ([thesaurus.badw.de/]), funded by the Austrian Ministery of Science and Research, where I write entries for the dictionary (see [http://www.neulatein.de/biblio_lrz/biblio.htm]). 
+I am a lexicographer at the Thesaurus Linguae Latinae in Munich, Germany (<http://thesaurus.badw.de/>), funded by the Austrian Ministery of Science and Research, where I write entries for the dictionary (see [http://www.neulatein.de/biblio_lrz/biblio.htm]). 
 
 ### More Information
 
