@@ -84,5 +84,5 @@ exclude:
   - README.md
   - CNAME
   
-  plugins:
+plugins:
   - jekyll-seo-tag
