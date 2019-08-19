@@ -19,4 +19,4 @@ excerpt_separator: <!--more-->
 
 
 #### Use
-All scripts are written in [*AutoIT*](www.autoitscript.com/site/autoit/) (Windows only). All data are stored separately; scripts written in LINUX-friendly languages can easily use the same data. Both *o4a-solver* and *EML-spellchecker* have been used on several texts by me and are running stably. Tests of *EML-normalizer* will begin in the fall of 2019.
+All scripts are written  in [*AutoIT*](www.autoitscript.com/site/autoit/) (Windows only). All data are stored separately; scripts written in LINUX-friendly languages can easily use the same data. Both *o4a-solver* and *EML-spellchecker* have been used on several texts by me and are running stably. Tests of *EML-normalizer* will begin in the fall of 2019.
