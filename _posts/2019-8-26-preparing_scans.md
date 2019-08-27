@@ -77,7 +77,7 @@ Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr 
 ## 5. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 
-![GitHub Logo](/images/scantailorminusforty.jpg
+![GitHub Logo](/images/scantailorminusforty.jpg)
 
 The output is not especially nice:
 
