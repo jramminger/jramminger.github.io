@@ -46,7 +46,6 @@ By chance I detect GIMP's Threshold tool which produces a clean b/w picture with
 </DIV>
 
 After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr:
-
 <DIV align="center">
  <img width="650" src="/images/after_threshhold.jpg">
 </DIV>
@@ -61,20 +60,24 @@ Now these two GIMP tools need to be applied to the 995 pages of the *Commentaria
 
 ## 5. Starting b/w: a Google-scan
 After lunch the obvious solution presents itself: I look for a Google-scan of the same book, which - unlike the BSB-scan - is already bitonal:
-
-![GitHub Logo](/images/googlescan.jpg)
+<DIV align="center">
+ <img width="650" src="/images/googlescan.jpg">
+</DIV>
 
 Google has done an excellent conversion job, the scans are perfectly and evenly legible, even though they are not nearly as beautiful as the color scans of the BSB. To avoid any losses, I have ScanTailor output a grey image:
-
-![GitHub Logo](/images/google_after_scantailor.jpg)
+<DIV align="center">
+ <img width="650" src="/images/google_after_scantailor.jpg">
+</DIV>
 
 This is not a good idea; OCR4all mangles the output thoroughly:
-
-![GitHub Logo](/images/google_in_ocr4all.jpg)
+<DIV align="center">
+ <img width="650" src="/images/google_in_ocr4all.jpg">
+</DIV>
 
 And the ocr result is not good:
-
-![GitHub Logo](/images/googlestgt.jpg)
+<DIV align="center">
+ <img width="650" src="/images/googlestgt.jpg">
+</DIV>
 
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is absent, same for some letters at the beginning of the third line, etc.).
 
@@ -82,16 +85,19 @@ Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr 
 
 ## 5. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
-
-![GitHub Logo](/images/scantailorminusforty.jpg)
+<DIV align="center">
+ <img width="650" src="/images/scantailorminusforty.jpg">
+</DIV>
 
 The output is not especially nice:
-
-![GitHub Logo](/images/bsbminusforty.jpg)
+<DIV align="center">
+ <img width="650" src="/images/bsbminusforty.jpg">
+</DIV>
 
 buuuut, the graphics algorithm of OCR4all seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
-
-![GitHub Logo](/images/gtminusforty.jpg)
+<DIV align="center">
+ <img width="650" src="/images/gtminusforty.jpg">
+</DIV>
 
 So maybe this is it. Easy solution to a hard problem. End of second season. No I have to try it with the whole book. I will update this post if necessary.
 
