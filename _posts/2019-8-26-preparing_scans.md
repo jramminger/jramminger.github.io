@@ -31,7 +31,7 @@ I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously de
 
 Since there seems no easy way out, I tackle the real problem, the uneven coloring of the page. For this I use the Curve-tool:
 
-![GitHub Logo](/images/gimp-curve.jpg)
+![GitHub Logo](/images/gimp_curve.jpg)
 
 which lightens the left margin of the test page without degrading the rest too much:
 
@@ -68,7 +68,7 @@ This is not a good idea; OCR4all mangles the output thoroughly:
 
 And the ocr result is not good:
 
-![GitHub Logo](/imagesgooglestgt.jpg)
+![GitHub Logo](/images/googlestgt.jpg)
 
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is absent, same for some letters at the beginning of the third line, etc.).
 
@@ -77,15 +77,15 @@ Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr 
 ## 5. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 
-![GitHub Logo](/imagesscantailorminusforty.jpg
+![GitHub Logo](/images/scantailorminusforty.jpg
 
 The output is not especially nice:
 
-![GitHub Logo](/imagesbsbminusforty.jpg)
+![GitHub Logo](/images/bsbminusforty.jpg)
 
 buuuut, the graphics algorithm of OCR4all seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
 
-![GitHub Logo](/imagesgtminusforty.jpg)
+![GitHub Logo](/images/gtminusforty.jpg)
 
 So maybe this is it. Easy solution to a hard problem. End of second season. No I have to try it with the whole book. I will update this post if necessary.
 
