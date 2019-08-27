@@ -19,7 +19,7 @@ The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the stan
 
 Unfortunately, OCR4all transforms this into a bitonal scan where the left margin is missing:
 <DIV align="center">
- <img width="600" src="/images/coloro4a.jpg">
+ <img width="600" src="/images/colorocr4all.jpg">
 </DIV>
 
 Consequently, the ocr is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
