@@ -14,14 +14,14 @@ My usual ocr-workflow includes a number of free as well as commercial programs (
 ## 1. What happened so far
 The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the standard encyclopedias of the sixteenth century. Since the book with nearly 1000 pages is substantial, it has been little studied; we know next to nothing about Maffei's Latin, even though it must have influenced countless readers of his *Commentaria*. I have chosen one of the later editions, Basileae 1544, in a copy owned by the Bayerische Staatsbibliothek, Munich (BSB 1563368938bsb10150226). *OCR4all* produces nearly error-free output already with the default antiqua model (!), aside from the innermost one or two centimeters of every line. The print has the usual marginal notabilia which I have cut with *ScanTailor*. ScanTailor can output b/w images, this however, due to the uneven illumination, does not normally produce a usable result, since either the inner margins default to black, or the rest becomes dangerously white. [If you are getting impatient while reading this, you can now jump to the end]. Therefore I output color images. Just for the purposes of this post, I throw the scantailor export test page into OCR4all:
 <DIV align="center">
- <img src="/images/color.jpg">
+ <img width="600" src="/images/color.jpg">
 </DIV>
 
 The result is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
 <DIV align="center">
- <img width="650" src="/images/color_gt.jpg">
+ <img width="600" src="/images/color_gt.jpg">
 </DIV>
-<DIV align="center" style="font-size:70%">
+<DIV align="center" style="font-size: x-small;">
 Ground Truth of the first lines with the first letters missing.
 </DIV>
 
@@ -29,35 +29,35 @@ Ground Truth of the first lines with the first letters missing.
 ## 2. GIMP curve tool
 I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously defined presets. First I try the easy way out by googling "Gimp bw conversion" and similar; the suggestion I turn up is Image > Mode > Indexed and use the black and white palette. With normal Floyd-Steinberg dithering this turns my page into a hopeless mess of speckles. With "reduced color bleeding" the page has strangely dotted characters, but is perfectly legible:
 <DIV align="center">
- <img width="650" src="/images/no_bleeding.jpg">
+ <img width="600" src="/images/no_bleeding.jpg">
 </DIV>
 
 *OCR4all*, in any case, cannot segment the lines - end of story. The 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
 
 Since there seems no easy way out, I tackle the real problem, the uneven coloring of the page. For this I use the Curve-tool:
 <DIV align="center">
- <img width="200" src="/images/gimp_curve.jpg">
+ <img width="180" src="/images/gimp_curve.jpg">
 </DIV>
 
 which lightens the left margin of the test page without degrading the rest too much:
 <DIV align="center">
- <img width="650" src="/images/after_curve.jpg">
+ <img width="600" src="/images/after_curve.jpg">
 </DIV>
 
 ## 3. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
 <DIV align="center">
- <img width="250" src="/images/gimp_threshhold.jpg">
+ <img width="200" src="/images/gimp_threshhold.jpg">
 </DIV>
 
 After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr:
 <DIV align="center">
- <img width="650" src="/images/after_threshhold.jpg">
+ <img width="600" src="/images/after_threshhold.jpg">
 </DIV>
 
 The result of a test run with *OCR4all* is excellent (though strangely the 'a' in the first 'patriae' has not been recognized):
 <DIV align="center">
- <img width="650" src="/images/success_gt.jpg">
+ <img width="600" src="/images/success_gt.jpg">
 </DIV>
 
 ## 4. GIMP/blog writer's failure
@@ -66,22 +66,22 @@ Now these two GIMP tools need to be applied to the 995 pages of the *Commentaria
 ## 5. Starting b/w: a Google-scan
 After lunch the obvious solution presents itself: I look for a Google-scan of the same book, which - unlike the BSB-scan - is already bitonal:
 <DIV align="center">
- <img width="650" src="/images/googlescan.jpg">
+ <img width="600" src="/images/googlescan.jpg">
 </DIV>
 
 Google has done an excellent conversion job, the scans are perfectly and evenly legible, even though they are not nearly as beautiful as the color scans of the BSB. To avoid any losses, I have ScanTailor output a grey image:
 <DIV align="center">
- <img width="650" src="/images/google_after_scantailor.jpg">
+ <img width="600" src="/images/google_after_scantailor.jpg">
 </DIV>
 
 This is not a good idea; OCR4all mangles the output thoroughly:
 <DIV align="center">
- <img width="650" src="/images/google_in_ocr4all.jpg">
+ <img width="600" src="/images/google_in_ocr4all.jpg">
 </DIV>
 
 And the ocr result is not good:
 <DIV align="center">
- <img width="650" src="/images/googlestgt.jpg">
+ <img width="600" src="/images/googlestgt.jpg">
 </DIV>
 
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is missing, same for some letters at the beginning of the third line, etc.).
@@ -96,15 +96,15 @@ Next idea is one I had discarded earlier: Producing a bitonal output of the colo
 
 The output is not especially nice:
 <DIV align="center">
- <img width="650" src="/images/bsbminusforty.jpg">
+ <img width="600" src="/images/bsbminusforty.jpg">
 </DIV>
 
 buuuut, the graphics algorithm of OCR4all seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
 <DIV align="center">
- <img width="650" src="/images/gtminusforty.jpg">
+ <img width="600" src="/images/gtminusforty.jpg">
 </DIV>
 
-So maybe this is it. Easy solution to a hard problem. End of second season. No I have to try it with the whole book. I will update this post if necessary.
+So maybe this is it. Easy solution to a hard problem. End of second season. Now I have to try it with the whole book. I will update this post if necessary.
 
 
 * * *
