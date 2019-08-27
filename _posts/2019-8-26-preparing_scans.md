@@ -21,7 +21,9 @@ The result is excellent, as expected, aside from the fact that the first one or 
 <DIV align="center">
  <img width="650" src="/images/color_gt.jpg">
 </DIV>
+<DIV align="center" style="font-size:70%">
 Ground Truth of the first lines with the first letters missing.
+</DIV>
 
 
 ## 2. GIMP curve tool
@@ -82,7 +84,7 @@ And the ocr result is not good:
  <img width="650" src="/images/googlestgt.jpg">
 </DIV>
 
-('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is absent, same for some letters at the beginning of the third line, etc.).
+('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is missing, same for some letters at the beginning of the third line, etc.).
 
 Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one.
 
