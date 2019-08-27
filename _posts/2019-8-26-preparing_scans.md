@@ -33,7 +33,9 @@ I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously de
 
 Since there seems no easy way out, I tackle the real problem, the uneven coloring of the page. For this I use the Curve-tool:
 
-![GitHub Logo](/images/gimp_curve.jpg)
+<DIV align="center">
+ <img width="200" src="/images/gimp_curve.jpg">
+</DIV>
 
 which lightens the left margin of the test page without degrading the rest too much:
 
