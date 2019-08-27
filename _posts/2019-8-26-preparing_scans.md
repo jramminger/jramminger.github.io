@@ -37,7 +37,7 @@ I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously de
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-*OCR4all*, in any case, cannot segment the lines - end of story. The 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
+*OCR4all*, in any case, cannot segment the lines - end of story. GIMP's 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
 
 Since there seems no easy way out, I tackle the real problem, the uneven coloring of the page. For this I use the Curve-tool:
 <DIV align="center">
