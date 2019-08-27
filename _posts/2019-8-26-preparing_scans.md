@@ -54,7 +54,7 @@ which lightens the left margin of the test page without degrading the rest too m
 ## 3. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
 <DIV align="center">
- <img width="200" src="/images/gimp_threshhold.jpg">
+ <img width="200" src="/images/gimp_threshold.jpg">
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
@@ -94,6 +94,7 @@ And the ocr result is not good:
  <img width="600" src="/images/googlestgt.jpg"><BR>
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is missing, same for some letters at the beginning of the third line, etc.).
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one. End of second season. 
 
