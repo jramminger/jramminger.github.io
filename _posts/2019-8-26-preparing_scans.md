@@ -13,12 +13,11 @@ My usual ocr-workflow includes a number of free as well as commercial programs (
 
 ## 1. What happened so far
 The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the standard encyclopedias of the sixteenth century. Since the book with nearly 1000 pages is substantial, it has been little studied; we know next to nothing about Maffei's Latin, even though it must have influenced countless readers of his *Commentaria*. I have chosen one of the later editions, Basileae 1544, in a copy owned by the Bayerische Staatsbibliothek, Munich (BSB 1563368938bsb10150226). *OCR4all* produces nearly error-free output already with the default antiqua model (!), aside from the innermost one or two centimeters of every line. The print has the usual marginal notabilia which I have cut with *ScanTailor*. ScanTailor can output b/w images, this however, due to the uneven illumination, does not normally produce a usable result, since either the inner margins default to black, or the rest becomes dangerously white. [If you are getting impatient while reading this, you can now jump to the end]. Therefore I output color images. Just for the purposes of this post, I throw the scantailor export test page into OCR4all:
-
 <DIV align="center">
  <img src="/images/color.jpg">
 </DIV>
 
- The result is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
+The result is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
 
 ![GitHub Logo](/images/color_gt.jpg)
 Ground Truth of the first lines with the first letters missing.
@@ -46,9 +45,12 @@ By chance I detect GIMP's Threshold tool which produces a clean b/w picture with
  <img width="250" src="/images/gimp_threshold.jpg">
 </DIV>
 
-After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr.
+After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr:
 
-![GitHub Logo](/images/after_threshhold.jpg)
+<DIV align="center">
+ <img width="650" src="/images/after_threshhold.jpg">
+</DIV>
+
 
 The result of a test run with *OCR4all* is excellent (though strangely the 'a' in the first 'patriae' has not been recognized):
 
