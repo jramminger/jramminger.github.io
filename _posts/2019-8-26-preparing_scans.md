@@ -122,4 +122,4 @@ This is the result with the standard 'historical antiqua' font! So maybe this is
 
 * * *
 
-Software and internet sites mentioned in this blog post: [TotalCommander](www.ghisler.com/), [ScanTailor](scantailor.org/), [IrfanView](www.irfanview.com), [OCR4all](github.com/OCR4all), [EML-txt2txt](jramminger.github.io/emltxt2txt/), [GIMP](www.gimp.org), [MS Windows](www.microsoft.com/de-de/windows), [Adobe Lightroom](www.adobe.com), [Google](www.google.com), [Bayerische Staatsbibliothek](www.bsb-muenchen.de).
+Software and internet sites mentioned in this blog post: [TotalCommander](http://www.ghisler.com/), [ScanTailor](http://scantailor.org/), [IrfanView](http://www.irfanview.com), [OCR4all](http://github.com/OCR4all), [EML-txt2txt](http://jramminger.github.io/emltxt2txt/), [GIMP](http://www.gimp.org), [MS Windows](http://www.microsoft.com/de-de/windows), [Adobe Lightroom](http://www.adobe.com), [Google](http://www.google.com), [Bayerische Staatsbibliothek](http://www.bsb-muenchen.de).
