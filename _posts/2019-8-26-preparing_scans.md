@@ -17,18 +17,15 @@ The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the stan
  <img width="600" src="/images/color.jpg">
 </DIV>
 
-
 Unfortunately, OCR4all transforms this into a bitonal scan where the left margin is missing:
 <DIV align="center">
  <img width="600" src="/images/colorocr4all.jpg">
 </DIV>
-
+<DIV align="center">&nbsp;</DIV>
 
 Consequently, the ocr is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
 <DIV align="center">
- <img width="600" src="/images/color_gt.jpg">
-</DIV>
-<DIV align="center" style="font-size: x-small;">
+ <img width="600" src="/images/color_gt.jpg"><BR>
 Ground Truth of the first lines with the first letters missing.
 </DIV>
 
@@ -38,6 +35,7 @@ I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously de
 <DIV align="center">
  <img width="600" src="/images/no_bleeding.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 *OCR4all*, in any case, cannot segment the lines - end of story. The 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
 
@@ -45,27 +43,32 @@ Since there seems no easy way out, I tackle the real problem, the uneven colorin
 <DIV align="center">
  <img width="180" src="/images/gimp_curve.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 which lightens the left margin of the test page without degrading the rest too much:
 <DIV align="center">
  <img width="600" src="/images/after_curve.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 ## 3. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
 <DIV align="center">
  <img width="200" src="/images/gimp_threshhold.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr:
 <DIV align="center">
  <img width="600" src="/images/after_threshhold.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 The result of a test run with *OCR4all* is excellent (though strangely the 'a' in the first 'patriae' has not been recognized):
 <DIV align="center">
  <img width="600" src="/images/success_gt.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 ## 4. GIMP/blog writer's failure
 Now these two GIMP tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in GIMP. Turns out there is only a very limited set of commands it can be used with, curve and threshold not being among them. Should have remembered that from another attempt a couple of years ago. I know that in theory GIMP can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of GIMP, I turn to Google and find at least two promising scripts for older versions of GIMP. As I understand it, there is, however, a newly introduced command 'with-files' that takes care of the batch application of scripts; it is carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10. I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, GIMP cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I have to conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it. End of first season.
@@ -88,10 +91,9 @@ This is not a good idea; OCR4all mangles the output thoroughly:
 
 And the ocr result is not good:
 <DIV align="center">
- <img width="600" src="/images/googlestgt.jpg">
-</DIV>
-
+ <img width="600" src="/images/googlestgt.jpg"><BR>
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is missing, same for some letters at the beginning of the third line, etc.).
+</DIV>
 
 Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one. End of second season. 
 
@@ -100,6 +102,7 @@ Next idea is one I had discarded earlier: Producing a bitonal output of the colo
 <DIV align="center">
  <img width="150" src="/images/scantailorminusforty.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 The output is not especially nice:
 <DIV align="center">
