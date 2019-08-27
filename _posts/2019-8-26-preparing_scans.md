@@ -18,15 +18,17 @@ The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the stan
 </DIV>
 
 The result is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
-
-![GitHub Logo](/images/color_gt.jpg)
+<DIV align="center">
+ <img width="650" src="/images/color_gt.jpg">
+</DIV>
 Ground Truth of the first lines with the first letters missing.
 
 
 ## 2. GIMP curve tool
 I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously defined presets. First I try the easy way out by googling "Gimp bw conversion" and similar; the suggestion I turn up is Image > Mode > Indexed and use the black and white palette. With normal Floyd-Steinberg dithering this turns my page into a hopeless mess of speckles. With "reduced color bleeding" the page has strangely dotted characters, but is perfectly legible:
-
-![GitHub Logo](/images/no_bleeding.jpg)
+<DIV align="center">
+ <img width="650" src="/images/no_bleeding.jpg">
+</DIV>
 
 *OCR4all*, in any case, cannot segment the lines - end of story. The 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
 
@@ -36,13 +38,14 @@ Since there seems no easy way out, I tackle the real problem, the uneven colorin
 </DIV>
 
 which lightens the left margin of the test page without degrading the rest too much:
-
-![GitHub Logo](/images/after_curve.jpg)
+<DIV align="center">
+ <img width="650" src="/images/after_curve.jpg">
+</DIV>
 
 ## 3. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
 <DIV align="center">
- <img width="250" src="/images/gimp_threshold.jpg">
+ <img width="250" src="/images/gimp_threshhold.jpg">
 </DIV>
 
 After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr:
@@ -50,10 +53,10 @@ After a bit of experimenting with the slider I settle on a threshold of 179. The
  <img width="650" src="/images/after_threshhold.jpg">
 </DIV>
 
-
 The result of a test run with *OCR4all* is excellent (though strangely the 'a' in the first 'patriae' has not been recognized):
-
-![GitHub Logo](/images/success_gt.jpg) 
+<DIV align="center">
+ <img width="650" src="/images/success_gt.jpg">
+</DIV>
 
 ## 4. GIMP/blog writer's failure
 Now these two GIMP tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in GIMP. Turns out there is only a very limited set of commands it can be used with, curve and threshold not being among them. Should have remembered that from another attempt a couple of years ago. I know that in theory GIMP can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of GIMP, I turn to Google and find at least two promising scripts for older versions of GIMP. As I understand it, there is, however, a newly introduced command 'with-files' that takes care of the batch application of scripts; it is carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10. I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, GIMP cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I have to conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it. End of first season.
@@ -86,7 +89,7 @@ Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr 
 ## 5. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 <DIV align="center">
- <img width="650" src="/images/scantailorminusforty.jpg">
+ <img width="250" src="/images/scantailorminusforty.jpg">
 </DIV>
 
 The output is not especially nice:
