@@ -32,7 +32,6 @@ I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously de
 *OCR4all*, in any case, cannot segment the lines - end of story. The 'Equalize'-command, another suggestion from Google, returns a dark illegible result (as predicted by many users). 
 
 Since there seems no easy way out, I tackle the real problem, the uneven coloring of the page. For this I use the Curve-tool:
-
 <DIV align="center">
  <img width="200" src="/images/gimp_curve.jpg">
 </DIV>
@@ -43,8 +42,9 @@ which lightens the left margin of the test page without degrading the rest too m
 
 ## 3. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
-
-![GitHub Logo](/images/gimp_threshold.jpg)
+<DIV align="center">
+ <img width="250" src="/images/gimp_threshold.jpg">
+</DIV>
 
 After a bit of experimenting with the slider I settle on a threshold of 179. The letters on the left still have thicker strokes, but even the rest retains enough information for ocr.
 
