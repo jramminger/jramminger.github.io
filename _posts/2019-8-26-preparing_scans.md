@@ -93,25 +93,27 @@ And the ocr result is not good:
 
 ('patriae' is not read correctly, 'gloria' becomes 'gioria', first letter in the second line is missing, same for some letters at the beginning of the third line, etc.).
 
-Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one.
+Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one. End of second season. 
 
 ## 5. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 <DIV align="center">
- <img width="250" src="/images/scantailorminusforty.jpg">
+ <img width="150" src="/images/scantailorminusforty.jpg">
 </DIV>
 
 The output is not especially nice:
 <DIV align="center">
  <img width="600" src="/images/bsbminusforty.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
 buuuut, the graphics algorithm of OCR4all seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
 <DIV align="center">
  <img width="600" src="/images/gtminusforty.jpg">
 </DIV>
+<DIV align="center">&nbsp;</DIV>
 
-So maybe this is it. Easy solution to a hard problem. End of second season. Now I have to try it with the whole book. I will update this post if necessary.
+This is the result with the standard 'historical antiqua' font! So maybe this is it. Easy solution to a hard problem. Now I have to try it with the whole book. I will update this post if necessary.
 
 
 * * *
