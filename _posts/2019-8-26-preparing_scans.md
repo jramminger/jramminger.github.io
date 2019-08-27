@@ -17,10 +17,12 @@ The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the stan
  <img width="600" src="/images/color.jpg">
 </DIV>
 
+
 Unfortunately, OCR4all transforms this into a bitonal scan where the left margin is missing:
 <DIV align="center">
  <img width="600" src="/images/colorocr4all.jpg">
 </DIV>
+
 
 Consequently, the ocr is excellent, as expected, aside from the fact that the first one or two letters of every line are left off - ups:
 <DIV align="center">
