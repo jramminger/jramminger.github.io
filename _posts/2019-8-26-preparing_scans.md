@@ -14,7 +14,8 @@ My usual ocr-workflow includes a number of free as well as commercial programs (
 ## 1. What happened so far
 The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the standard encyclopedias of the sixteenth century. Since the book with nearly 1000 pages is substantial, it has been little studied; we know next to nothing about Maffei's Latin, even though it must have influenced countless readers of his *Commentaria*. I have chosen one of the later editions, Basileae 1544, in a copy owned by the Bayerische Staatsbibliothek, Munich (BSB 1563368938bsb10150226). *OCR4all* produces nearly error-free output already with the default antiqua model (!), aside from the innermost one or two centimeters of every line. The print has the usual marginal notabilia which I have cut with *ScanTailor*. ScanTailor can output b/w images, this however, due to the uneven illumination, does not normally produce a usable result, since either the inner margins default to black, or the rest becomes dangerously white. [If you are getting impatient while reading this, you can now jump to the end]. Therefore I output color images. Just for the purposes of this post, I throw the scantailor export test page into OCR4all:
 <DIV align="center">
- <img width="600" src="/images/color.jpg">
+ <img width="600" src="/images/color.jpg"><SUP><BR>
+ Color image - output of ScanTailor</SUP>
 </DIV>
 
 Unfortunately, OCR4all transforms this into a bitonal scan where the left margin is missing:
