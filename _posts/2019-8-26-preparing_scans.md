@@ -20,7 +20,8 @@ The book in question are Raffaele Maffei's *Commentaria Urbana*, one of the stan
 
 Unfortunately, OCR4all transforms this into a bitonal scan where the left margin is missing:
 <DIV align="center">
- <img width="600" src="/images/colorocr4all.jpg">
+ <img width="600" src="/images/colorocr4all.jpg"><BR>
+ <SUP>Color image - bitonal conversion by *OCR4all</SUP>
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
