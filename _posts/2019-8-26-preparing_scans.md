@@ -33,7 +33,7 @@ Consequently, the ocr is excellent, as expected, aside from the fact that the fi
 
 
 ## 2. GIMP curve tool
-I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously defined presets. First I try the easy way out by googling "Gimp bw conversion" and similar; the suggestion I turn up is Image > Mode > Indexed and use the black and white palette. With normal Floyd-Steinberg dithering this turns my page into a hopeless mess of speckles. With "reduced color bleeding" the page has strangely dotted characters, but is perfectly legible:
+I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously defined presets. My plan is (a) to define the necessary improvements to the contrast, and (b) to apply them to all pages. First I try the easy way out by googling "Gimp bw conversion" and similar; the suggestion I turn up is Image > Mode > Indexed and use the black and white palette. With normal Floyd-Steinberg dithering this turns my page into a hopeless mess of speckles. With "reduced color bleeding" the page has strangely dotted characters, but is perfectly legible:
 <DIV align="center">
  <img width="600" src="/images/no_bleeding.jpg"><BR>
  <SUP>Bitonal conversion with *GIMP* - character outlines are dotted</SUP>
@@ -80,7 +80,7 @@ The result of a test run with *OCR4all* is excellent (though strangely the 'a' i
 <DIV align="center">&nbsp;</DIV>
 
 ## 4. GIMP/blog writer's failure
-Now these two GIMP tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in GIMP. Turns out there is only a very limited set of commands it can be used with, curve and threshold not being among them. Should have remembered that from another attempt a couple of years ago. I know that in theory GIMP can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of GIMP, I turn to Google and find at least two promising scripts for older versions of GIMP. As I understand it, there is, however, a newly introduced command 'with-files' that takes care of the batch application of scripts; it is carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10. I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, GIMP cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I have to conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it. End of first season.
+Now these two *GIMP* tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in *GIMP*. Turns out there is only a very limited set of commands it can be used with, curve and threshold not being among them. Should have remembered that from another attempt a couple of years ago. I know that in theory *GIMP* can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of *GIMP*, I turn to *Google* and find at least two promising scripts for older versions of *GIMP*. As I understand it, there is, however, a newly introduced command 'with-files' that takes care of the batch application of scripts; it is carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10. I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, *GIMP* cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it. End of first lesson.
 
 ## 5. Starting b/w: a Google-scan
 After lunch the obvious solution presents itself: I will look for a Google-scan of the same book, which - unlike the BSB-scan - is already bitonal:
@@ -108,10 +108,12 @@ And the ocr result is not good:
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-Next step: I convert the ScanTailor-grey to a bitonal image with Irfan. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). Next variant: bitonal output by ScanTailor of bitonal Google scan. The thickness of the lines does not change with the slider in ScanTailor; the characters of the first 'patriae' are hardly distinguishable. I do not feel like even trying to ocr this one. End of second season. 
+Next step: I convert the *ScanTailor*-grey to a bitonal image with *Irfan*. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). 
+
+Next variant: bitonal output by *ScanTailor* of bitonal *Google* scan. The thickness of the lines does not change with the slider in *ScanTailor*; the characters of the first 'patriae' are hardly distinguishable. I dont even try to ocr this one. End of second lesson. 
 
 ## 5. Back to the color BSB-scan and ScanTailor
-Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with ScanTailor and trying to find a sweet spot where the inner margin of the page becomes readable by OCR4all, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
+Next idea is one I had discarded earlier: Producing a bitonal output of the color BSB-scan with *ScanTailor* and trying to find a sweet spot where the inner margin of the page becomes readable by *OCR4all*, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 <DIV align="center">
  <img width="150" src="/images/scantailorminusforty.jpg"><BR>
  <SUP>*ScanTailor* output settings</SUP> 
@@ -125,7 +127,7 @@ The output is not especially nice:
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-buuuut, the graphics algorithm of OCR4all seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
+but, the graphics algorithm of *OCR4all* seems content with the input (no perceptible further changes/degradation) and the ocr is - again - excellent (note that 'patriae' is read correctly!):
 <DIV align="center">
  <img width="600" src="/images/gtminusforty.jpg"><BR>
  <SUP>ocr of *ScanTailor* bitonal conversion</SUP>
