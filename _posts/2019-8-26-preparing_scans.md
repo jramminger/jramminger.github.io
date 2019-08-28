@@ -92,13 +92,13 @@ After lunch the obvious solution presents itself: I will look for a Google-scan 
 Google has done an excellent conversion job, the scans are perfectly and evenly legible, even though they are not nearly as beautiful as the color scans of the BSB. To avoid any losses, I have ScanTailor output a grey image:
 <DIV align="center">
  <img width="600" src="/images/google_after_scantailor.jpg"><BR>
- <SUP>Output by *ScanTailor* - grey conversion from bitonal original</SUP>
+ <SUP>Output by ScanTailor - grey conversion from bitonal original</SUP>
 </DIV>
 
-This is not a good idea; OCR4all mangles the output thoroughly:
+This is not a good idea; OCR4all cannot cope with the grey-scale image:
 <DIV align="center">
  <img width="600" src="/images/google_in_ocr4all.jpg"><BR>
- <SUP>*OCR4all* conversion of grey *ScanTailor* output
+ <SUP>OCR4all conversion of grey ScanTailor output
 </DIV>
 
 And the ocr result is not good:
@@ -132,7 +132,7 @@ buuuut, the graphics algorithm of OCR4all seems content with the input (no perce
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-This is the result with the standard 'historical antiqua' font! So maybe this is it. Easy solution to a hard problem. Now I have to try it with the whole book. I will update this post if necessary.
+This is the result with the standard 'historical antiqua' font (not training)! So maybe this is it. Easy solution to a hard problem. Now I have to try it with the whole book. I will update this post if necessary.
 
 
 * * *
