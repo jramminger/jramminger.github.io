@@ -98,7 +98,7 @@ After lunch the obvious solution presents itself: I will look for a *Google*-sca
 This is not a good idea; *OCR4all* cannot cope with the grey-scale image:
 <DIV align="center">
  <img width="600" src="/images/google_in_ocr4all.jpg"><BR>
- <SUP>OCR4all conversion of grey ScanTailor output
+ <SUP>OCR4all conversion of grey ScanTailor output</SUP>
 </DIV>
 
 And the ocr result is not good:
