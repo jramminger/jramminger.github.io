@@ -19,7 +19,7 @@ GT is for these reasons confined to seven pages (which is a ridiculously small a
  <SUP>from BAV Vrb. lat 411 fol. 67v</SUP>
 </DIV>
 
-Despite these limitations and the deficiencies of GT, the end result is usable, but will require extensive post-processing with EML-txt2txt:
+The result, after two rounds of training, is as follows:
 
 <DIV align="center">
  <img width="600" src="/images/bav_urb_lat_411_67v_gt.jpg"><BR>
@@ -28,9 +28,9 @@ Despite these limitations and the deficiencies of GT, the end result is usable, 
 
 Some types of mistakes are the same is in early printed books, especially the majuscules are for lack of training just as problematic in this ms. as they are usually in print. The 'x' is not very well recognized, nor is majuscule 'E' which resembles 'e' magnified. Abbreviations are hardly ever recognized, since the parts of the sign are usually spread out and not contiguous.
 
-
+Some of the problems (such as the graphs for 'que' or 'ct') would have been solved with more training; still, the result - while needing a substantial amount of post-processing - can be used to establish a machine-readable text.
 
 * * *
 
-Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411](https://digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal](graal.hypotheses.org/786), [Hawk, dhq](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html), [ScanTailor](scantailor.org/), [Transkribus](transkribus.eu/Transkribus/), [OCR4all](github.com/OCR4all), [EML-txt2txt](jramminger.github.io/emltxt2txt/).
+Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411](https://digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal](graal.hypotheses.org/786), [Hawk, dhq](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html), [Transkribus](transkribus.eu/Transkribus/), [OCR4all](github.com/OCR4all), [EML-txt2txt](jramminger.github.io/emltxt2txt/).
 
