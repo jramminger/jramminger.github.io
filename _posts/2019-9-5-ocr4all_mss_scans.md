@@ -5,7 +5,7 @@ subtitle: with OCR4all
 image: /images/datiporsenna.jpg
 excerpt_separator: <!--more-->
 ---
-This blog describes my attempt to OCR the *Gesta Porsennae* (1458/1460) by Leonardo Dati (1408-1472) with OCR4all from high quality scans offered online by the Biblioteca Apostolica Vaticana, of the ms. Vrb. lat. 411, a beautiful late fifteenth century manuscript from the library of Federico da Montefeltro.
+This blog describes my largely successful attempt to OCR the *Gesta Porsennae* (1458/1460) by Leonardo Dati (1408-1472) with *OCR4all* from high quality scans offered online by the Biblioteca Apostolica Vaticana, of the ms. Vrb. lat. 411, a beautiful late fifteenth century manuscript from the library of Federico da Montefeltro.
 <!--more-->
 
 OCR of manuscripts is in many ways the holy grail of OCR of historical media.  On the one hand there are manuscripts with a script that is tantalizingly clean, on the other hand success has been limited, with high error rates. Software that is specifically geared towards manuscripts, has been rare so far. The only software specifically aiming at OCR of handwriting I know of is *Transcribus*. With a lower limit of ground truth production of a hundred images this aims at projects with substantial personal infrastructure and/or long time perspective. This blogger, a single researcher always in a hurry, has neither. A rather successful attempt at ms-OCR was described by Jean-Baptiste Camps on the Graal-blog, using OCRopy (which is in the same family of software as OCR4all/Calamari). An in-depth discussion of the topic was recently given by B.W. Hawk, "Modelling Medieval Hands: Practical OCR for Caroline Minuscule" in dhq 13,1 (2019). 
@@ -26,11 +26,11 @@ The result, after two rounds of training, is as follows:
  <SUP>OCR from BAV Vrb. lat 411 fol. 67v</SUP>
 </DIV>
 
-Some types of mistakes are the same is in early printed books, especially the majuscules are for lack of training just as problematic in this ms. as they are usually in print. The 'x' is not very well recognized, nor is majuscule 'E' which resembles 'e' magnified. Abbreviations are hardly ever recognized, since the parts of the graph are usually spread out and not contiguous.
+Some types of mistakes are the same is in early printed books; especially the majuscules are for lack of training just as problematic as they are usually in print. The 'x' is not very well recognized, nor is majuscule 'E' which resembles 'e' magnified. Abbreviations are hardly ever recognized, since the parts of the graph are usually spread out and not contiguous. Some problems (such as the graphs for 'que' or 'ct') could have been solved with more training. 
 
-Some of the problems (such as the graphs for 'que' or 'ct') would have been solved with more training. The result needs a substantial amount of post-processing; this will still be considerably faster than typing to establish a machine-readable text.
+All in all I am quite content with the result. It needed a substantial amount of post-processing. This was still considerably faster than typing to establish a machine-readable text.
 
 * * *
 
-Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411](https://digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal](graal.hypotheses.org/786), [Hawk, dhq](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html), [Transkribus](transkribus.eu/Transkribus/), [OCR4all](github.com/OCR4all), [EML-txt2txt](jramminger.github.io/emltxt2txt/).
+Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411, digi.vatlib.it/view/MSS_Urb.lat.411](digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal, graal.hypotheses.org/786](graal.hypotheses.org/786), [Hawk, dhq, www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html), [Transkribus, transkribus.eu/Transkribus/](transkribus.eu/Transkribus/), [OCR4all, github.com/OCR4all](github.com/OCR4all), [EML-txt2txt, jramminger.github.io/emltxt2txt/](jramminger.github.io/emltxt2txt/).
 
