@@ -11,7 +11,7 @@ The quality of the scans used for OCR is one of the two factors deciding the qua
 ## 1. Choice of software
 My usual ocr-workflow includes a number of free as well as commercial programs (all under MS Windows). For file manipulations (rename etc.) I use *TotalCommander* (commercial, but with a neglegible cost per license), image preparation happens with *ScanTailor* (free, open source), image conversions with *IrfanView* (free), of course *OCR4all* (free, open source), and postprocessing with *EML-txt2txt* (free). This leaves quality improvements of the scans, if necessary. In my experience, *OCR4all* in the standard settings does not cope well with color scans that are too unequally illuminated. So far I have used *Adobe Lightroom*, which has an excellent curve tool for changing the lighting of a page and a superintuitive batch mode. Lately I have felt that I should try to replace it with another program - *GIMP* being the obvious candidate. The reason is purely economic: I own one licence of Lightroom which is installed on my home laptop. I work, however, on several PC's, so I need software that can be installed anywhere (legally).  
 
-## 1. What happened so far
+## 2. What happened so far
 The book in question is Raffaele Maffei's *Commentaria Urbana*, one of the standard encyclopedias of the sixteenth century. Since the book with nearly 1000 pages is substantial, it has been little studied; we know next to nothing about Maffei's Latin, even though it must have influenced countless readers of his *Commentaria*. I have chosen one of the later editions, Basileae 1544, in a copy owned by the Bayerische Staatsbibliothek, Munich (BSB 1563368938bsb10150226). *OCR4all* produces nearly error-free output already with the default antiqua model (!), aside from the innermost one or two centimeters of every line. The print has the usual marginal notabilia which I have cut with *ScanTailor*. ScanTailor can output b/w images, this however, due to the uneven illumination, does not normally produce a usable result, since either the inner margins default to black, or the rest becomes dangerously white. (If you are getting impatient while reading this, you can now jump to the end). Therefore I output color images. Just for the purposes of this post, I threw the *ScanTailor* export test page into *OCR4all*:
 <DIV align="center">
  <img width="600" src="/images/color.jpg"><SUP><BR>
@@ -32,7 +32,7 @@ Consequently, the ocr is excellent, as expected, aside from the fact that the fi
 </DIV>
 
 
-## 2. GIMP curve tool
+## 3. GIMP curve tool
 I turn to *GIMP* (2.10.12-3), which offers Batch Manipulation with previously defined presets. My plan is (a) to define the necessary improvements to the contrast, and (b) to apply them to all pages. First I try the easy way out by googling "Gimp bw conversion" and similar; the suggestion I turn up is Image > Mode > Indexed and use the black and white palette. With normal Floyd-Steinberg dithering this turns my page into a hopeless mess of speckles. With "reduced color bleeding" the page has strangely dotted characters, but is perfectly legible:
 <DIV align="center">
  <img width="600" src="/images/no_bleeding.jpg"><BR>
@@ -56,7 +56,7 @@ which lightens the left margin of the test page without degrading the rest too m
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-## 3. GIMP threshold tool
+## 4. GIMP threshold tool
 By chance I detect GIMP's Threshold tool which produces a clean b/w picture without a speckle in sight. This is a beautifully programmed piece of *GIMP*:
 <DIV align="center">
  <img width="200" src="/images/gimp_threshold.jpg"><BR>
@@ -79,10 +79,10 @@ The result of a test run with *OCR4all* is excellent (though strangely the 'a' i
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-## 4. GIMP/blog writer's failure
-Now these two *GIMP* tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in *GIMP*. Turns out there is only a very limited set of commands it can be used with, curve and threshold not being among them. Should have remembered that from another attempt a couple of years ago. I know that in theory *GIMP* can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of *GIMP*, I turn to *Google* and find at least two promising scripts for older versions of *GIMP*. As I understand it, there is, however, a newly introduced command 'with-files' that takes care of the batch application of scripts; it is carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10. I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, *GIMP* cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it.
+## 5. Batch processing failure
+Now these two *GIMP* tools need to be applied to the 995 pages of the *Commentaria*. First I turn to Batch Manipulation in *GIMP*. Turns out it can be used only with a very limited set of commands, curve and threshold not being among these. I should have remembered that from another attempt a couple of years ago. I know that in theory *GIMP* can also be started from the commandline, so a script might do the trick. Since I have never used the scripting language (Script-Fu) of *GIMP*, I turn to *Google* and find at least two promising scripts for older versions of *GIMP*. There is also a newly introduced command 'with-files' that takes care of the batch application of scripts (carefully explained in the script 'script-fu-util.scm' which is standard with version 2.10). I spend a couple of hours on a Sunday morning trying to get any of the example scripts to work. Mostly, *GIMP* cheerfully assures me that the batch commands have been successfully executed. It's just that nothing happens to my scans. After thoughts of lunch begin to intrude on my futile activity, I conclude that I am doing something wrong which is so elementary that nobody has thought of mentioning it.
 
-## 5. Starting b/w: a Google-scan
+## 6. Starting b/w: a Google-scan
 After lunch the obvious solution presents itself: I will look for a *Google*-scan of the same book (since *BSB* and *Google* cooperate), which - unlike the *BSB*-scan - is already bitonal:
 <DIV align="center">
  <img width="600" src="/images/googlescan.jpg"><BR>
@@ -108,11 +108,11 @@ And the ocr result is not good:
 </DIV>
 <DIV align="center">&nbsp;</DIV>
 
-Next step: I convert the *ScanTailor*-grey to a bitonal image with *Irfan*. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never noticed before). 
+Next step: I convert the *ScanTailor*-grey to a bitonal image with *Irfan*. The ocr is better, but not nearly as good as my first results with GIMP. Lot of missing characters (most of which could be trained). The last line on the page is not read at all (a phenomenon I have never encountered before). 
 
 Next variant: bitonal output by *ScanTailor* of bitonal *Google* scan. The thickness of the lines does not change with the slider in *ScanTailor*; the characters of the first 'patriae' are hardly distinguishable. I dont even try to ocr this one. 
 
-## 5. Back to the color BSB-scan and ScanTailor
+## 7. Back to the color BSB-scan and ScanTailor
 Next idea is one I had discarded earlier: Producing a bitonal output of the color *BSB*-scan with *ScanTailor* and trying to find a sweet spot where the inner margin of the page becomes readable by *OCR4all*, while the rest retains enough information so as to be still readable. I settle on a measure of -40 and mild despeckling:
 <DIV align="center">
  <img width="150" src="/images/scantailorminusforty.jpg"><BR>
