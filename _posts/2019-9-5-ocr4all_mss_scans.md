@@ -33,12 +33,12 @@ All in all I am quite content with the result. It needed a substantial amount of
 * * *
 
 #### Literature
-B.W. Hawk, "Modelling Medieval Hands: Practical OCR for Caroline Minuscule", dhq 13,1 (2019). [www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html)
+B.W. Hawk, "Modelling Medieval Hands: Practical OCR for Caroline Minuscule", dhq 13,1 (2019). [www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html](http://www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html)
 
 Ch. Reul et al., OCR4all - An Open-Source Tool Providing a (Semi-)Automatic OCR Workflow for Historical
-Printings, applsci (2019). [arxiv.org/pdf/1909.04032.pdf](arxiv.org/pdf/1909.04032.pdf)
+Printings, applsci (2019). [arxiv.org/pdf/1909.04032.pdf](http://arxiv.org/pdf/1909.04032.pdf)
 
 
 
-Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411, digi.vatlib.it/view/MSS_Urb.lat.411](digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal, graal.hypotheses.org/786](graal.hypotheses.org/786), [Transkribus, transkribus.eu/Transkribus/](transkribus.eu/Transkribus/), [OCR4all, github.com/OCR4all](github.com/OCR4all), [EML-txt2txt, jramminger.github.io/emltxt2txt/](jramminger.github.io/emltxt2txt/).
+Software and internet sites mentioned in this blog post: [BAV Vrb. lat. 411, digi.vatlib.it/view/MSS_Urb.lat.411](http://digi.vatlib.it/view/MSS_Urb.lat.411), [Camps, Graal, graal.hypotheses.org/786](http://graal.hypotheses.org/786), [Transkribus, transkribus.eu/Transkribus/](http://transkribus.eu/Transkribus/), [OCR4all, github.com/OCR4all](http://github.com/OCR4all), [EML-txt2txt, jramminger.github.io/emltxt2txt/](http://jramminger.github.io/emltxt2txt/).
 
