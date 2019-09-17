@@ -32,7 +32,7 @@ All in all I am quite content with the result. It needed a substantial amount of
 
 * * *
 
-**Literature**
+#### Literature
 B.W. Hawk, "Modelling Medieval Hands: Practical OCR for Caroline Minuscule", dhq 13,1 (2019). [www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html](www.digitalhumanities.org/dhq/vol/13/1/000412/000412.html)
 
 Ch. Reul et al., OCR4all - An Open-Source Tool Providing a (Semi-)Automatic OCR Workflow for Historical
