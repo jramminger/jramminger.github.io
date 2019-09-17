@@ -26,7 +26,7 @@ The result, after two rounds of training, is as follows:
  <SUP>OCR from BAV Vrb. lat 411 fol. 67v</SUP>
 </DIV>
 
-Some types of mistakes are the same is in early printed books; especially the majuscules are for lack of training just as problematic as they are usually in print. The 'x' is not very well recognized, nor is majuscule 'E' which resembles 'e' magnified. Abbreviations are hardly ever recognized, since the parts of the graph are usually spread out and not contiguous. Some problems (such as the graphs for 'que' or 'ct') could have been solved with more training. 
+Some types of mistakes are the same as in early printed books; especially the majuscules are for lack of training just as problematic as they are usually in print. The 'x' is not very well recognized, nor is majuscule 'E' which resembles 'e' magnified. Abbreviations are hardly ever recognized, since the parts of the graph are usually spread out and not contiguous. Some problems (such as the graphs for 'que' or 'ct') could have been solved with more training. 
 
 All in all I am quite content with the result. It needed a substantial amount of post-processing. This was still considerably faster than typing to establish a machine-readable text.
 
