@@ -5,7 +5,7 @@ subtitle: Processing the output of OCR4all
 image: /images/emltxt2txt.jpg
 excerpt_separator: <!--more-->
 ---
-**EML-txt2txt** is a collection of three scripts (*o4a-solver*, *EML-spellchecker*, *EML-normalizer*) under a common GUI that work on Early Modern Latin (EML) texts. They transform the output of [*OCR4all*](jramminger.github.io/ocr4all/) into texts that have (1) abbreviations solved (*OCR4all* outputs unicode), (2) scanning mistakes corrected, and (3) orthography normalized. 
+**EML-txt2txt** is a collection of three scripts (*o4a-solver*, *EML-spellchecker*, *EML-normalizer*) under a common GUI that work on Early Modern Latin (EML) texts. They transform the output of [*OCR4all*](jramminger.github.io/ocr4all/) (version of May 2019) into texts that have (1) abbreviations solved (*OCR4all* outputs unicode), (2) scanning mistakes corrected, and (3) orthography normalized. 
 <!--more-->
 
 The output of [*OCR4all*](jramminger.github.io/ocr4all/) aims to represent as much of the original form of the text as possible. This is achieved by representing the abbreviations with graphs from a UC-font optimized for the visualization of the graphic form of medieval Latin texts (e.g. [*Andron Scriptor Web*](folk.uib.no/hnooh/mufi/fonts/)). Such a text can be the basis for transformations into different orthographic representations to be used for different research purposes. 
