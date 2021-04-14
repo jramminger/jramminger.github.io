@@ -16,18 +16,18 @@ The text of the first volume - which was my source - has 360.000 tokens. First, 
 
 <DIV align="center">
 <TABLE>
-<TR><TD align="left">ut</TD><TD>2984</TD></TR>
-<TR><TD align="left">ad</TD><TD>2596</TD></TR>
-<TR><TD>de</TD><TD>2578</TD></TR>
-<TR><TD>non</TD><TD>2518</TD></TR>
-<TR><TD>quod</TD><TD>2356</TD></TR>
-<TR><TD>qui</TD><TD>2172</TD></TR>
-<TR><TD>cum</TD><TD>2165</TD></TR>
-<TR><TD>eft</TD><TD>2113</TD></TR>
-<TR><TD>ac</TD><TD>2039</TD></TR>
-<TR><TD>quae</TD><TD>1542</TD></TR>
-<TR><TD>aut</TD><TD>1485</TD></TR>
-<TR><TD>...</TD><TD> </TD></TD>
+<TR><TD align="left">ut</TD><TD  align="left">2984</TD></TR>
+<TR><TD align="left">ad</TD><TD  align="left">2596</TD></TR>
+<TR><TD align="left">de</TD><TD  align="left">2578</TD></TR>
+<TR><TD  align="left">non</TD><TD  align="left">2518</TD></TR>
+<TR><TD  align="left">quod</TD><TD  align="left">2356</TD></TR>
+<TR><TD  align="left">qui</TD><TD  align="left">2172</TD></TR>
+<TR><TD  align="left">cum</TD><TD  align="left">2165</TD></TR>
+<TR><TD  align="left">eft</TD><TD  align="left">2113</TD></TR>
+<TR><TD  align="left">ac</TD><TD  align="left">2039</TD></TR>
+<TR><TD  align="left">quae</TD><TD  align="left">1542</TD></TR>
+<TR><TD  align="left">aut</TD><TD  align="left">1485</TD></TR>
+<TR><TD  align="left">...</TD><TD  align="left"> </TD></TD>
 </TABLE>
 </DIV>
 
@@ -35,22 +35,22 @@ This list was than lemmatized with Collatinus; those that came back lemmatized, 
 
 <DIV align="center">
 <TABLE>
-<TR><TD>eft</TD><TD>2113</TD><TD>est</TD></TR>
-<TR><TD>fed</TD><TD>758</TD><TD>sed</TD></TR>
-<TR><TD>effe</TD><TD>620</TD><TD>esse</TD></TR>
-<TR><TD>funt</TD><TD>584</TD><TD>sunt</TD></TR>
-<TR><TD>rum</TD><TD>403</TD><TD>-</TD></TR>
-<TR><TD>bodinus</TD><TD>399</TD><TD></TD></TR>
-<TR><TD>fe</TD><TD>342</TD><TD>se</TD></TR>
-<TR><TD>con</TD><TD>287</TD><TD></TD></TR>
-<TR><TD>tur</TD><TD>284</TD><TD>-</TD></TR>
-<TR><TD>fint</TD><TD>254</TD><TD>sint</TD></TR>
-<TR><TD>bus</TD><TD>241</TD><TD>-</TD></TR>
-<TR><TD>kai</TD><TD>240</TD><TD></TD></TR>
-<TR><TD>atq</TD><TD>234</TD><TD></TD></TR>
-<TR><TD>poteft</TD><TD>221</TD><TD>potest</TD></TR>
-<TR><TD>poft</TD><TD>221</TD><TD>post</TD></TR>
-<TR><TD>...</TD></TR>
+<TR><TD  align="left">eft</TD><TD  align="left">2113</TD><TD  align="left">est</TD></TR>
+<TR><TD  align="left">fed</TD><TD  align="left">758</TD><TD  align="left">sed</TD></TR>
+<TR><TD  align="left">effe</TD><TD  align="left">620</TD><TD  align="left">esse</TD></TR>
+<TR><TD  align="left">funt</TD><TD  align="left">584</TD><TD  align="left">sunt</TD></TR>
+<TR><TD  align="left">rum</TD><TD  align="left">403</TD><TD  align="left">-</TD></TR>
+<TR><TD  align="left">bodinus</TD><TD  align="left">399</TD><TD  align="left"></TD></TR>
+<TR><TD  align="left">fe</TD><TD  align="left">342</TD><TD  align="left">se</TD></TR>
+<TR><TD  align="left">con</TD><TD  align="left">287</TD><TD  align="left"></TD></TR>
+<TR><TD  align="left">tur</TD><TD  align="left">284</TD><TD  align="left">-</TD></TR>
+<TR><TD  align="left">fint</TD><TD  align="left">254</TD><TD  align="left">sint</TD></TR>
+<TR><TD  align="left">bus</TD><TD  align="left">241</TD><TD  align="left">-</TD></TR>
+<TR><TD  align="left">kai</TD><TD  align="left">240</TD><TD  align="left"></TD></TR>
+<TR><TD  align="left">atq</TD><TD  align="left">234</TD><TD  align="left"></TD></TR>
+<TR><TD  align="left">poteft</TD><TD  align="left">221</TD><TD  align="left">potest</TD></TR>
+<TR><TD  align="left">poft</TD><TD  align="left">221</TD><TD  align="left">post</TD></TR>
+<TR><TD  align="left">...</TD></TR>
 </TABLE>
 </DIV>
 
@@ -62,23 +62,23 @@ The first list of words not lemmatized alerted me to another problem: The origin
 
 <DIV align="center">
 <TABLE>
-<TR><TD> guber nationem</TD><TD>1</TD><TD>gubernationem</TD></TR>
-<TR><TD> ha bemus</TD><TD>1</TD><TD>habemus</TD></TR>
-<TR><TD> ha bent</TD><TD>3</TD><TD>habent</TD></TR>
-<TR><TD> ha bet</TD><TD>2</TD><TD>habet</TD></TR>
-<TR><TD> ha buit</TD><TD>3</TD><TD>habuit</TD></TR>
-<TR><TD> haben da</TD><TD>2</TD><TD>habenda</TD></TR>
-<TR><TD> haben disque</TD><TD>1</TD><TD>habendisque</TD></TR>
-<TR><TD> hac bemus</TD><TD>3</TD><TD>habemus</TD></TR>
-<TR><TD> hac bet</TD><TD>9</TD><TD>habet</TD></TR>
-<TR><TD> haeredi tate</TD><TD>1</TD><TD>haereditate</TD></TR>
-<TR><TD> halicarnaso fus</TD><TD>2</TD><TD>halicarnassus</TD></TR>
-<TR><TD> hanni bal</TD><TD>1</TD><TD>hannibal</TD></TR>
-<TR><TD> he bris</TD><TD>1</TD><TD>hebris</TD></TR>
-<TR><TD> hi storia</TD><TD>2</TD><TD>historia</TD></TR>
-<TR><TD> hi storici</TD><TD>4</TD><TD>historici</TD></TR>
-<TR><TD> hi storico</TD><TD>2</TD><TD>historico</TD></TR>
-<TR><TD> hi storicus</TD><TD>2</TD><TD>historicus</TD></TR>
+<TR><TD  align="left"> guber nationem</TD><TD  align="left">1</TD><TD  align="left">gubernationem</TD></TR>
+<TR><TD  align="left"> ha bemus</TD><TD  align="left">1</TD><TD  align="left">habemus</TD></TR>
+<TR><TD  align="left"> ha bent</TD><TD  align="left">3</TD><TD  align="left">habent</TD></TR>
+<TR><TD  align="left"> ha bet</TD><TD  align="left">2</TD><TD  align="left">habet</TD></TR>
+<TR><TD  align="left"> ha buit</TD><TD  align="left">3</TD><TD  align="left">habuit</TD></TR>
+<TR><TD  align="left"> haben da</TD><TD  align="left">2</TD><TD  align="left">habenda</TD></TR>
+<TR><TD  align="left"> haben disque</TD><TD  align="left">1</TD><TD  align="left">habendisque</TD></TR>
+<TR><TD  align="left"> hac bemus</TD><TD  align="left">3</TD><TD  align="left">habemus</TD></TR>
+<TR><TD  align="left"> hac bet</TD><TD  align="left">9</TD><TD  align="left">habet</TD></TR>
+<TR><TD  align="left"> haeredi tate</TD><TD  align="left">1</TD><TD  align="left">haereditate</TD></TR>
+<TR><TD  align="left"> halicarnaso fus</TD><TD  align="left">2</TD><TD  align="left">halicarnassus</TD></TR>
+<TR><TD  align="left"> hanni bal</TD><TD  align="left">1</TD><TD  align="left">hannibal</TD></TR>
+<TR><TD  align="left"> he bris</TD><TD  align="left">1</TD><TD  align="left">hebris</TD></TR>
+<TR><TD  align="left"> hi storia</TD><TD  align="left">2</TD><TD  align="left">historia</TD></TR>
+<TR><TD  align="left"> hi storici</TD><TD  align="left">4</TD><TD  align="left">historici</TD></TR>
+<TR><TD  align="left"> hi storico</TD><TD  align="left">2</TD><TD  align="left">historico</TD></TR>
+<TR><TD  align="left"> hi storicus</TD><TD  align="left">2</TD><TD  align="left">historicus</TD></TR>
 </TABLE>
 </DIV>
 
