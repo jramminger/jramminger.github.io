@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collatinus as a spell-checker 
-subtitle: for Early Modern Latin
+title: Collatinus 
+subtitle: as spell-checker for Early Modern Latin
 image: /images/collatinusspellchecker.jpg
 excerpt_separator: <!--more-->
 ---
