@@ -84,9 +84,9 @@ The first list of words not lemmatized alerted me to another problem: The origin
 
 All in all I inserted (aside from the Unicode corrections), approx. 22.000 corrections, recovered 2000 split words, and added '-que' 1050 times.
 
-Facit: 
-+ The text is more legible than before
-+ Key terms of the text can be more reliably searched by any text processor
-+ The procedure can with little effort target specific word families
-- Running Collatinus on a large scale is time-consuming
-- If run unsupervised, new mistakes will inevitably be introduced
+### Facit: 
+(+) The text is more legible than before<BR>
+(+) Key terms of the text can be more reliably searched by any text processor<BR>
+(+) The procedure can with little effort target specific word families<BR>
+(-) Running Collatinus on a large scale is time-consuming<BR>
+(-) If run unsupervised, new mistakes will inevitably be introduced
