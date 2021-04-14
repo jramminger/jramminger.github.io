@@ -15,6 +15,7 @@ Enclitic -que was easily resolved since the words ending in -que are a closed cl
 The text of the first volume - which was my source - has 360.000 tokens. First, I removed all not-ASCII letters. Those that were in foreign alphabets (Cyrillic, Arabic) I deleted, letters with accents were replaced by equivalents without accents. Then I converted the text into a list of tokens ordered by frequency, since it made sense to focus on the most frequent errors; tokens that occur only once or twice contribute less to the state of the text. This resulted in a list of 55.930 tokens:
 
 <DIV align="center">
+  
 <TABLE>
 <TR><TD align="left">ut</TD><TD  align="left">2984</TD></TR>
 <TR><TD align="left">ad</TD><TD  align="left">2596</TD></TR>
@@ -27,8 +28,9 @@ The text of the first volume - which was my source - has 360.000 tokens. First, 
 <TR><TD  align="left">ac</TD><TD  align="left">2039</TD></TR>
 <TR><TD  align="left">quae</TD><TD  align="left">1542</TD></TR>
 <TR><TD  align="left">aut</TD><TD  align="left">1485</TD></TR>
-<TR><TD  align="left">...</TD><TD  align="left"> </TD></TD>
+<TR><TD  align="left">...</TD><TD  align="left"> </TD></TR>
 </TABLE>
+
 </DIV>
 
 This list was than lemmatized with Collatinus; those that came back lemmatized, were presumably correct. In this case the tendency of Collatinus to return even the most obscure of forms (such as 'natura' for the feminine future participle of 'no, nare', to swim) did not matter much. I noticed only one important case was 'fi' as imperative of 'fieri' (!), instead of a frequent mistake for 'si'. This resulted in a list of 23.801 items for further correction. Within this list, words containing 'f' were also tested with 's', and the resulting lemmatization - if any - was written into column 3 and eventually into the text itself: 
