@@ -15,9 +15,9 @@ Enclitic -que was easily resolved since the words ending in -que are a closed cl
 The text of the first volume - which was my source - has 360.000 tokens. First, I removed all not-ASCII letters. Those that were in foreign alphabets (Cyrillic, Arabic) I deleted, letters with accents were replaced by equivalents without accents. Then I converted the text into a list of tokens ordered by frequency, since it made sense to focus on the most frequent errors; tokens that occur only once or twice contribute less to the state of the text. This resulted in a list of 55.930 tokens:
 
 <DIV align="center">
-<TABLE align="left">
-<TR><TD>ut</TD><TD>2984</TD></TR>
-<TR><TD>ad</TD><TD>2596</TD></TR>
+<TABLE>
+<TR><TD align="left">ut</TD><TD>2984</TD></TR>
+<TR><TD align="left">ad</TD><TD>2596</TD></TR>
 <TR><TD>de</TD><TD>2578</TD></TR>
 <TR><TD>non</TD><TD>2518</TD></TR>
 <TR><TD>quod</TD><TD>2356</TD></TR>
