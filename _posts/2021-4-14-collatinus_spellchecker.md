@@ -17,16 +17,16 @@ The text of the first volume - which was my source - has 360.000 tokens. First, 
 <DIV align="center">
   
 <TABLE>
-<TR><TD align="left">ut</TD><TD  align="left">2984</TD></TR>
-<TR><TD align="left">ad</TD><TD  align="left">2596</TD></TR>
-<TR><TD align="left">de</TD><TD  align="left">2578</TD></TR>
-<TR><TD  align="left">non</TD><TD  align="left">2518</TD></TR>
-<TR><TD  align="left">quod</TD><TD  align="left">2356</TD></TR>
-<TR><TD  align="left">qui</TD><TD  align="left">2172</TD></TR>
-<TR><TD  align="left">cum</TD><TD  align="left">2165</TD></TR>
-<TR><TD  align="left">eft</TD><TD  align="left">2113</TD></TR>
-<TR><TD  align="left">ac</TD><TD  align="left">2039</TD></TR>
-<TR><TD  align="left">quae</TD><TD  align="left">1542</TD></TR>
+<TR><TD align="left">ut </TD><TD  align="left"> 2984</TD></TR>
+<TR><TD align="left">ad </TD><TD  align="left">2596</TD></TR>
+<TR><TD align="left">de </TD><TD  align="left">2578</TD></TR>
+<TR><TD  align="left">non </TD><TD  align="left">2518</TD></TR>
+<TR><TD  align="left">quod </TD><TD  align="left">2356</TD></TR>
+<TR><TD  align="left">qui </TD><TD  align="left">2172</TD></TR>
+<TR><TD  align="left">cum </TD><TD  align="left">2165</TD></TR>
+<TR><TD  align="left">eft </TD><TD  align="left">2113</TD></TR>
+<TR><TD  align="left">ac </TD><TD  align="left">2039</TD></TR>
+<TR><TD  align="left">quae </TD><TD  align="left">1542</TD></TR>
 <TR><TD  align="left">aut</TD><TD  align="left">1485</TD></TR>
 <TR><TD  align="left">...</TD><TD  align="left"> </TD></TR>
 </TABLE>
@@ -64,7 +64,7 @@ The first list of words not lemmatized alerted me to another problem: The origin
 
 <DIV align="center">
 <TABLE>
-<TR><TD  align="left"> guber nationem</TD><TD  align="left">1</TD><TD  align="left">gubernationem</TD></TR>
+<TR><TD  align="left"> guber nationem </TD><TD  align="left"> 1 </TD><TD  align="left"> gubernationem</TD></TR>
 <TR><TD  align="left"> ha bemus</TD><TD  align="left">1</TD><TD  align="left">habemus</TD></TR>
 <TR><TD  align="left"> ha bent</TD><TD  align="left">3</TD><TD  align="left">habent</TD></TR>
 <TR><TD  align="left"> ha bet</TD><TD  align="left">2</TD><TD  align="left">habet</TD></TR>
