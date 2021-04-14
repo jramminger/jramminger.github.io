@@ -5,7 +5,7 @@ subtitle: as spell-checker for Early Modern Latin
 image: /images/collatinusspellchecker.jpg
 excerpt_separator: <!--more-->
 ---
-This blog entry is about an attempt to use lemmatization (the software 'Collatinus') to recognize and isolate errors in the OCR of an 16th century print, and in some cases to reconstitute words  separated by incorrectly recognized word borders.
+This blog entry is about an attempt to use lemmatization (the software 'Collatinus') to recognize and isolate errors in the OCR of a 16th century print, and in some cases to reconstitute words  separated by incorrectly recognized word borders.
 <!--more-->
 
 Recently I had the chance to work with a text of the Artis historicae penus, printed Basileae 1579. This is a collection of texts on the theory of historiography in two volumes; large part of the first volume is occupied by Bodin's Methodus ad facilem historiae cognitionem. The two volumes had been OCR'ed some time ago with poor luck, partly to do with the bad quality of the digitization used as source, partly with the lack of a suitable OCR software. Thus, among many mistakes, there was a constant misreading of long 's' as 'f', the ligature for enclitic '-que' as 'q' or 'q;', loss of hyphens or replacement by '.', and many split words.
