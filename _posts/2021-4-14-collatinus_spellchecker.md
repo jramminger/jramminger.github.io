@@ -21,7 +21,7 @@ The text of the first volume - which was my source - has 360.000 tokens. First, 
 <TR><TD align="left">ad </TD><TD  align="left">2596</TD></TR>
 <TR><TD align="left">de </TD><TD  align="left">2578</TD></TR>
 <TR><TD  align="left">non </TD><TD  align="left">2518</TD></TR>
-<TR><TD  align="left">quod </TD><TD  align="left">2356</TD></TR>
+<TR><TD  align="left">quod &nbsp;&nbsp;</TD><TD  align="left">2356</TD></TR>
 <TR><TD  align="left">qui </TD><TD  align="left">2172</TD></TR>
 <TR><TD  align="left">cum </TD><TD  align="left">2165</TD></TR>
 <TR><TD  align="left">eft </TD><TD  align="left">2113</TD></TR>
@@ -37,12 +37,12 @@ This list was than lemmatized with Collatinus; those that came back lemmatized, 
 
 <DIV align="center">
 <TABLE>
-<TR><TD  align="left">eft</TD><TD  align="left">2113</TD><TD  align="left">est</TD></TR>
+<TR><TD  align="left">eft</TD><TD  align="left">2113 &nbsp;&nbsp;</TD><TD  align="left">est</TD></TR>
 <TR><TD  align="left">fed</TD><TD  align="left">758</TD><TD  align="left">sed</TD></TR>
 <TR><TD  align="left">effe</TD><TD  align="left">620</TD><TD  align="left">esse</TD></TR>
 <TR><TD  align="left">funt</TD><TD  align="left">584</TD><TD  align="left">sunt</TD></TR>
 <TR><TD  align="left">rum</TD><TD  align="left">403</TD><TD  align="left">-</TD></TR>
-<TR><TD  align="left">bodinus</TD><TD  align="left">399</TD><TD  align="left"></TD></TR>
+<TR><TD  align="left">bodinus &nbsp;&nbsp;</TD><TD  align="left">399</TD><TD  align="left"></TD></TR>
 <TR><TD  align="left">fe</TD><TD  align="left">342</TD><TD  align="left">se</TD></TR>
 <TR><TD  align="left">con</TD><TD  align="left">287</TD><TD  align="left"></TD></TR>
 <TR><TD  align="left">tur</TD><TD  align="left">284</TD><TD  align="left">-</TD></TR>
@@ -64,7 +64,7 @@ The first list of words not lemmatized alerted me to another problem: The origin
 
 <DIV align="center">
 <TABLE>
-<TR><TD  align="left"> guber nationem </TD><TD  align="left"> 1 </TD><TD  align="left"> gubernationem</TD></TR>
+<TR><TD  align="left"> guber nationem  &nbsp;&nbsp;</TD><TD  align="left"> 1  &nbsp;&nbsp;</TD><TD  align="left"> gubernationem</TD></TR>
 <TR><TD  align="left"> ha bemus</TD><TD  align="left">1</TD><TD  align="left">habemus</TD></TR>
 <TR><TD  align="left"> ha bent</TD><TD  align="left">3</TD><TD  align="left">habent</TD></TR>
 <TR><TD  align="left"> ha bet</TD><TD  align="left">2</TD><TD  align="left">habet</TD></TR>
